@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">LED control: an abstract two-button controller illustration</title>
+  <desc id="desc">Two push buttons, a controller block, and a glowing LED represent input and output. Lines are conceptual connections, not hardware wiring instructions.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#262A2D" opacity=".12"/></pattern></defs>
+  <rect width="800" height="600" fill="#F0F1F2"/>
+  <rect x="28" y="28" width="744" height="544" rx="8" fill="white"/>
+  <rect x="76" y="112" width="648" height="324" fill="url(#grid)"/>
+  <rect x="58" y="62" width="14" height="14" fill="#F58220"/>
+  <text x="86" y="75" fill="#262A2D" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2.4">INPUT / RESPONSE / OUTPUT</text>
+  <path d="M210 224H296V256H332M210 350H296V310H332M484 283H597" fill="none" stroke="#262A2D" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="white" stroke="#262A2D" stroke-width="4"><rect x="126" y="181" width="84" height="84" rx="14"/><rect x="126" y="307" width="84" height="84" rx="14"/></g>
+  <circle cx="168" cy="223" r="23" fill="#F58220"/>
+  <circle cx="168" cy="349" r="23" fill="#262A2D"/>
+  <rect x="332" y="209" width="152" height="148" rx="12" fill="#262A2D"/>
+  <g stroke="#262A2D" stroke-width="5"><path d="M357 192V209M383 192V209M409 192V209M435 192V209M461 192V209M357 357V374M383 357V374M409 357V374M435 357V374M461 357V374"/></g>
+  <text x="408" y="278" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">CONTROL</text>
+  <path d="M384 300H432" stroke="#F58220" stroke-width="5"/>
+  <circle cx="628" cy="283" r="62" fill="#F58220" opacity=".12"/>
+  <path d="M600 306V272A28 28 0 0 1 656 272V306Z" fill="#F58220" stroke="#262A2D" stroke-width="3"/>
+  <path d="M610 310V342M646 310V354M628 222V203M582 234L569 220M674 234L687 220" fill="none" stroke="#262A2D" stroke-width="3" stroke-linecap="round"/>
+  <path d="M58 478H112" stroke="#F58220" stroke-width="5"/>
+  <text x="58" y="533" fill="#262A2D" font-family="Arial,sans-serif" font-size="32" font-weight="700" letter-spacing="1">LED CONTROL</text>
+</svg>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F58220">
+  <meta name="description" content="Explore Charlie Selstad's projects in code, engineering, research, design and writing, along with his academic journey at Samueli Academy.">
+  <title>Charlie Selstad — Curiosity, put to work.</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23F58220'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-weight='800' font-size='29' fill='%23262A2D'%3ECS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="charts.css">
+  <script src="content.js" defer></script>
+  <script src="courses.js" defer></script>
+  <script src="charts.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell wrap">
+      <a class="wordmark" href="#top" aria-label="Charlie Selstad, home"><span class="monogram">CS</span><span>CHARLIE SELSTAD<span class="wordmark-sub">STUDENT PORTFOLIO</span></span></a>
+      <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="primary-nav" aria-label="Main navigation"><a href="#projects">Projects</a><a href="#coursework">Coursework</a><a href="#experience">Experience</a><a href="#about">About</a><a class="nav-cta" href="#contact">Let's connect <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span>SAMUELI ACADEMY · CLASS OF 2028</p>
+        <h1 id="hero-title">Curiosity,<br><span class="orange-text">put to work.</span></h1>
+        <p class="hero-intro">I'm Charlie—a student exploring the space between <strong>code, engineering, and clear ideas.</strong> I like understanding how systems work, building something tangible, and explaining the reasoning behind it.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="assets/charlie-selstad-resume.pdf" download>Download resume <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-foot"><span>Anaheim, California</span><span>High school junior</span><span>Open to part-time opportunities</span></div>
+      </div>
+      <aside class="hero-visual" aria-label="Meet Charlie">
+        <div class="orbit-label">A WORK IN PROGRESS. ALWAYS LEARNING.</div>
+        <div class="portrait-card"><div class="portrait-image"><img src="assets/charlie.jpg" width="160" height="200" alt="Charlie Selstad" fetchpriority="high"><span class="portrait-tag">HELLO, I'M CHARLIE</span></div><div class="portrait-caption"><strong>Charles “Charlie” Selstad</strong><span>Student · Intern · Curious thinker</span></div></div>
+        <div class="floating-note"><span class="tiny-label">MY APPROACH</span><strong>Ask. Build.<br>Test. Explain.</strong><svg viewBox="0 0 84 36" aria-hidden="true"><path d="M2 27C14 26 15 8 28 10S45 38 55 21 69 6 81 9M73 2l9 7-9 8" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></div>
+        <div class="hero-grid-mark" aria-hidden="true">+</div>
+      </aside>
+    </section>
+    <div class="marquee-strip" aria-label="Areas of exploration"><div class="wrap strip-inner"><span>CODE & SYSTEMS</span><span aria-hidden="true">✳</span><span>ENGINEERING & DESIGN</span><span aria-hidden="true">✳</span><span>RESEARCH & ARGUMENT</span><span aria-hidden="true">✳</span><span>CREATIVE THINKING</span></div></div>
+
+    <section class="section wrap projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE WORK</p><h2 id="projects-title">Ideas made tangible.</h2></div><p class="section-intro">Programs, prototypes, research, and creative work. Explore the process behind each one.</p></div>
+      <div class="project-toolbar"><div class="filter-group" id="project-filters" aria-label="Filter projects"></div><span class="result-count" id="project-count" aria-live="polite"></span></div>
+      <div class="carousel-frame"><div id="project-track" class="project-track" role="region" aria-label="Project carousel" tabindex="0"></div></div>
+      <div class="carousel-bottom"><div class="carousel-progress" aria-hidden="true"><span id="carousel-progress"></span></div><div class="carousel-controls"><span id="carousel-position" class="carousel-position" aria-live="polite"></span><button class="round-button" id="project-prev" aria-label="Previous projects">←</button><button class="round-button" id="project-next" aria-label="Next projects">→</button></div></div>
+      <p class="section-note">Project covers are editorial illustrations. Case studies distinguish completed work, documented code, and design proposals.</p>
+    </section>
+
+    <section class="coursework-section" id="coursework" aria-labelledby="coursework-title"><div class="wrap section">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE FOUNDATION</p><h2 id="coursework-title">Learning with range.</h2></div><p class="section-intro">Honors, AP, and college coursework, connecting technical foundations with writing, history, and human behavior.</p></div>
+      <div class="course-toolbar"><div class="filter-group" id="course-filters" aria-label="Filter coursework"></div><span class="result-count" id="course-count" aria-live="polite"></span></div>
+      <div class="course-grid" id="course-grid"></div>
+      <p class="section-note">Completed courses reflect the school transcript through spring 2026. Current courses are marked “In progress.” A completed semester is shown separately where the Honors designation changed.</p>
+      <details class="more-coursework"><summary>More of my academic foundation <span aria-hidden="true">+</span></summary><div><h3>Additional high school coursework</h3><div class="course-chips"><span>Spanish I</span><span>Spanish II</span><span>Competitive Esports I</span><span>English 9</span><span>Biology</span><span>PE & Health</span></div><h3>Earlier foundations · Grades 7–8</h3><p>Speech & Debate, 3D Design, Engineering 0, and Integrated Math 1.</p></div></details>
+    </div></section>
+
+    <section class="section wrap academic-section" id="academics" aria-labelledby="academic-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / IN PERSPECTIVE</p><h2 id="academic-title">The academic picture.</h2></div><p class="section-intro">A closer look at the record behind the resume. Figures are labeled by what they actually measure.</p></div>
+      <div class="stat-grid"><div class="stat-card"><span class="tiny-label">WEIGHTED ACADEMIC GPA</span><strong>4.36</strong><span>Unweighted academic GPA: 3.65</span></div><div class="stat-card"><span class="tiny-label">CLASS RANK</span><strong>10<span> / 136</span></strong><span>Samueli Academy · transcript snapshot</span></div><div class="stat-card"><span class="tiny-label">HONORS / AP COURSEWORK</span><strong>20<span> semesters</span></strong><span>Of 32 Grade 9–10 semester records</span></div></div>
+      <div class="academic-charts"><div id="grade-chart" class="chart-panel"></div><div id="term-chart" class="chart-panel"></div></div>
+      <p class="section-note">Academic snapshot: October 20, 2026. Grade charts cover Grades 9–10, including all recorded subjects. These are grade counts, not recalculated GPAs or AP examination scores.</p>
+    </section>
+
+    <section class="section wrap" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><div><p class="eyebrow">04 / BEYOND THE CLASSROOM</p><h2 id="experience-title">Putting ideas into practice.</h2></div><p class="section-intro">Learning how to communicate usefully, contribute to a team, and make complex information clearer.</p></div>
+      <div class="experience-grid"><article class="experience-card"><div class="experience-top"><span class="pill pill-orange">CURRENT EXPERIENCE</span><span>2026—present</span></div><h3>Intern</h3><p class="organization">Democratic Party of Orange County</p><p>I provide requested voter information and share election resources through professional email correspondence. The role gives me an opportunity to practice clear, helpful communication in an organization.</p><div class="mini-tags"><span>Professional communication</span><span>Information support</span><span>Civic engagement</span></div></article><article class="experience-card"><div class="experience-top"><span class="pill">ONGOING ACTIVITY</span><span>Speech & Debate</span></div><h3>Making a reasoned case.</h3><p>I prepare arguments, consider opposing viewpoints, and organize evidence into claims and responses. Topics have ranged from predictive policing to competitive balance in professional sports.</p><p>Debate connects my interest in systems with the challenge of explaining an idea clearly—and questioning my own assumptions.</p><div class="mini-tags"><span>Research</span><span>Argument structure</span><span>Presentation</span></div></article></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap section about-layout"><div><p class="eyebrow">05 / THE PERSON BEHIND THE WORK</p><h2 id="about-title">Technical curiosity.<br>Thoughtful communication.</h2></div><div class="about-copy"><p>I'm Charles “Charlie” Selstad, a high school junior at Samueli Academy in Santa Ana, California, graduating in 2028. I live in Anaheim and enjoy work that brings practical problem-solving and clear reasoning together.</p><p>My interests stretch from Python and engineering to formal logic, psychology, history, and visual design. I maintain an independent logic notebook, build source-supported arguments, and look for connections between the subjects I study.</p><div class="about-values"><div><strong>Careful by default.</strong><span>I organize information, compare details, and document my thinking.</span></div><div><strong>Better together.</strong><span>I collaborate on shared work and contribute to planning and communication.</span></div><div><strong>Ready to learn.</strong><span>I bring a systematic approach to unfamiliar tasks and new procedures.</span></div></div><div class="tool-list"><span class="tiny-label">TOOLS I USE</span><div><span>Python</span><span>Pygame</span><span>Turtle</span><span>Arduino / Wokwi</span><span>Google Sheets</span><span>Google Docs</span><span>Notion</span></div></div></div></div></section>
+
+    <section class="contact-section wrap" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">LET'S CONNECT</p><h2 id="contact-title">A good next step<br>starts with a conversation.</h2><p>Open to part-time retail and food-service opportunities around school hours, as well as conversations about my work and interests.</p></div><div class="contact-actions"><a class="button button-dark" href="mailto:charlesianselstad@gmail.com">Email Charlie <span aria-hidden="true">↗</span></a><button class="copy-email text-link" id="copy-email">Copy email address <span aria-hidden="true">⧉</span></button><a class="contact-phone" href="tel:+17143027278">(714) 302-7278</a><span id="copy-status" role="status"></span></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="wordmark" href="#top"><span class="monogram">CS</span><span>CHARLIE SELSTAD</span></a><span>Curiosity, put to work. · October 2026</span><a href="assets/charlie-selstad-resume.pdf" download>Download resume ↗</a><a href="#top">Back to top ↑</a></div></footer>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close round-button" id="dialog-close" aria-label="Close project details">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>
