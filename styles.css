@@ -7,7 +7,7 @@
 
 /* Keep longer portfolio descriptions comfortable at both reading widths. */
 .hero-visual{padding-bottom:151px}.floating-note{bottom:0;left:0}.floating-note .tiny-label{font-size:10px}
-.floating-note svg{top:18px;right:15px;bottom:auto;width:30px}
+.floating-note svg{top:20px;right:12px;bottom:auto;width:24px}
 .course-status,.course-level,.course-year,.mini-tag{font-size:10px}
 .project-card p{font-size:12px}.course-status{font-size:8px}.course-level{font-size:9px}.course-year{font-size:10px}.course-card details,.course-detail{font-size:11px}.section-note{font-size:10px}.dialog-sections ul{font-size:12px}.dialog-note{font-size:10px}.experience-card>p,.about-copy>p{font-size:13px}
 @media(max-width:760px){.project-card p{font-size:12px}.course-card h3{font-size:15px}.course-status{font-size:8px}.course-level{font-size:8px}.course-year{font-size:10px}.course-card details,.course-detail{font-size:11px}.section-intro,.model-story>p:not(.eyebrow),.contact-section p:not(.eyebrow){font-size:13px}.section-note{font-size:10px}.dialog-summary{font-size:13px}.dialog-sections ul{font-size:12px}.experience-card>p,.about-copy>p{font-size:13px}}
