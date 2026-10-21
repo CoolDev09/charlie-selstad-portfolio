@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
-  <title id="title">Creative coding: a conceptual Python-style loop and turtle drawing</title>
+  <title id="title">Python coding: a conceptual loop and turtle drawing</title>
   <desc id="desc">A generic code excerpt sits beside a geometric drawing path. This original editorial illustration is not a screenshot of project code.</desc>
   <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#262A2D" opacity=".12"/></pattern></defs>
   <rect width="800" height="600" fill="#F0F1F2"/>
@@ -17,5 +17,5 @@
   <circle cx="502" cy="381" r="7" fill="white" stroke="#262A2D" stroke-width="3"/>
   <path d="M615 301L603 324H627Z" fill="#262A2D"/>
   <path d="M58 478H112" stroke="#F58220" stroke-width="5"/>
-  <text x="58" y="533" fill="#262A2D" font-family="Arial,sans-serif" font-size="32" font-weight="700" letter-spacing="1">CREATIVE CODING</text>
+  <text x="58" y="533" fill="#262A2D" font-family="Arial,sans-serif" font-size="32" font-weight="700" letter-spacing="1">PYTHON &amp; TURTLE</text>
 </svg>
