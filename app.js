@@ -9,7 +9,7 @@
   let lastProjectTrigger=null;
   const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   function renderProjectFilters(){
-    const labels=['All work','Code','Engineering','Research','Writing','Design & art'];
+    const labels=['All work','Code','Engineering','Research','Writing'];
     document.getElementById('project-filters').innerHTML=labels.map((label,i)=>`<button class="filter-button" data-project-filter="${escape(label)}" aria-pressed="${i===0}">${escape(label)}</button>`).join('');
   }
   function renderProjects(category='All work'){
